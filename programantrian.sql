@@ -54,24 +54,6 @@ CREATE TABLE `antrian` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `antrian`
---
-
-INSERT INTO `antrian` (`nomor`, `status`, `loket`, `datang`, `dilayani`) VALUES
-(123, 'selesai', 'A', '03:31:01', '03:31:11'),
-(124, 'selesai', 'B', '03:31:04', '03:31:13'),
-(125, 'dilayani', 'C', '03:31:07', '03:31:16'),
-(126, 'selesai', 'A', '03:31:19', '03:38:53'),
-(127, 'selesai', 'A', '03:38:32', '03:39:01'),
-(128, 'dilayani', 'A', '03:38:35', '03:39:03'),
-(129, 'selesai', 'B', '03:38:37', '03:39:06'),
-(130, 'mengantri', '', '03:39:12', '00:00:00');
-
---
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `admin`
 --
 ALTER TABLE `admin`
@@ -83,17 +65,3 @@ ALTER TABLE `admin`
 ALTER TABLE `antrian`
   ADD PRIMARY KEY (`nomor`);
 
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `antrian`
---
-ALTER TABLE `antrian`
-  MODIFY `nomor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=131;
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

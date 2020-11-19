@@ -3,7 +3,7 @@
 $usernameDB = "root";
 $passwordDB = "";
 $serverDB = "localhost";
-$DB = "programantrian";
+$DB = "antrianku";
 
 
 // konek lagi = IMPORTANT

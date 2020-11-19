@@ -87,6 +87,7 @@ if (isset($_POST["selesaiC"])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include '_headtags.php' ?>
@@ -97,6 +98,7 @@ if (isset($_POST["selesaiC"])){
         }, 1000);
     </script>
     <title>Program Antrian</title>
+
 </head>
 <body>
 
@@ -109,9 +111,11 @@ if (isset($_POST["selesaiC"])){
 
         <div class="col s5 offset-s1 card">
             <div class="card-content">
+            
                 <!-- tampilan antrian -->
                 <div id="tampilAntrian"></div>
                 <!-- end tampilan antrian -->
+
             </div>
             <br><br>
         </div>

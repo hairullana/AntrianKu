@@ -27,7 +27,7 @@ include 'connectDB.php';
             <div class="card-content">
                 <form action="" method="post">
                     <ul>
-                        <li><button class="btn-large blue darken-2" type="submit" name="loginKaryawan">Login Sebagai Karyawan</button> <a class="btn-large blue darken-2" href="antrian.php">Login Sebagai Pelanggan</a></li>
+                        <li><button class="btn-large blue darken-2" type="submit" name="loginKaryawan">Login Sebagai Admin</button> <a class="btn-large blue darken-2" href="antrian.php">Login Sebagai Pelanggan</a></li>
                     </ul>
                 </form>
 
@@ -35,7 +35,7 @@ include 'connectDB.php';
                 <!-- login karyawan -->
                 <?php if (isset($_POST["loginKaryawan"])) : ?>
 
-                <h3 class="header light center">Login Karyawan</h3>
+                <h3 class="header light center">Login Admin</h3>
                 <div class="login">
                     <form action="" method="post" class="input-field inline">
                         <ul>
